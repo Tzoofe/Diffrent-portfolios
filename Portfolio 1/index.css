@@ -1,0 +1,268 @@
+body {
+    width: 100%;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+.arrow {
+    filter: invert(100%);
+    width: 90px;
+    margin-top: 640px;
+    margin-left: 49%;
+    opacity: 0.8;
+}
+
+.navbar {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100px;
+    /*background-color: #4991F7;*/
+    background-color: rgba(118, 122, 135, 0.2);
+    z-index: 999;
+}
+
+.bg {
+    position: absolute;
+    z-index: -999;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    /*background-image: url("18.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    background-attachment: fixed;*/
+}
+
+.bgimgcontainer {
+    position: absolute;
+    overflow: hidden;
+    left: 0px;
+    width: 100%;
+    height: 100vh;
+}
+
+.bgimg {
+    position: absolute;
+    z-index: -998;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100vh;
+    background-image: url(18.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    background-attachment: fixed;
+    overflow: hidden;
+}
+
+.infobg {
+    position: absolute;
+    z-index: -997;
+    top: 0px;
+    background-image: url(info2.jpg);
+}
+
+.navLogo {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 80px;
+    font-family: Pacifico;
+    font-size: 45px;
+    text-align: left;
+    vertical-align: center;
+    margin: 10px;
+    line-height: 80px;
+    color: #FFF;
+    cursor: pointer;
+}
+
+.navLogoSmall {
+    position: fixed;
+    z-index: 999;
+    background-color: rgba(118, 122, 135, 0.5);
+    top: -10px;
+    left: 20px;
+    width: 80px;
+    height: 80px;
+    font-family: Pacifico;
+    font-size: 45px;
+    text-align: center;
+    vertical-align: center;
+    line-height: 80px;
+    color: #FFF;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.farFromTop {
+    position: absolute;
+    top: 250px;
+    left: 0px;
+    width: 100%;
+    height: 300px;
+}
+.modelName {
+    color: white;
+    font-family: Oswald;
+    font-size: 40px;
+    position: absolute;
+    left: 150px;
+    top: 100px;
+    transition-duration: 0.4s;
+}
+.info {
+    position: absolute;
+    color: white;
+    width: 300px;
+    left: 150px;
+    top: 200px;
+    font-size: 20px;
+    font-family: Roboto Slab;
+    transition-duration: 0.4s;
+}
+
+
+
+
+@media screen and (max-aspect-ratio: 1.0) {
+    .farFromTop {
+        top: 100px;
+    }
+    .modelName {
+        top: 0px;
+        left: 205px;
+    }
+    .info {
+        top: 100px;
+        left: 25px;
+        width: 200px;
+    }
+}
+.aboutSection {
+    top: 100vh;
+    left: 0px;
+    width: 100%;
+    position: absolute;
+    height: 900px;
+    z-index: -9999;
+}
+.underPictureText {
+    color:white;
+    font-family: Pacifico;
+    margin-top: 220px;
+    margin-left: 19%;
+    font-size: 50px;
+}
+.underPictureParagraph {
+    color: white;
+    font-size: 20px;
+    font-family: Oswald;
+    margin-left: 20%;
+    width: 500px;
+    margin-bottom: 10px;
+}
+/*.meIRL {
+    position: absolute;0
+    top: 210px;
+    right: 100px;
+    border-radius: 60%;
+    background-image: url("me_irl.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: none;
+    width: 420px;
+    height: 420px;
+    filter: blur(1px);
+
+}
+*/
+
+
+
+.gallerySection {
+    background-color: #59747F;
+    top: 200vh;
+    left: 0px;
+    width: 100%;
+    position: absolute;
+    height: 900px;
+    background-image: url(20.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+.galleryHeaderText {
+    color:white;
+    font-family: Pacifico;
+    margin-top: 80px;
+    margin-left: 54%;
+    font-size: 50px;
+}
+.galleryParagraph {
+    color: white;
+    margin-left: 57%;
+    font-size: 20px;
+    font-family: Oswald;
+}
+.galleryImgs {
+    
+}
+
+
+
+
+
+.contactSection {
+    top: 292vh;
+    left: 0px;
+    width: 100%;
+    position: absolute;
+    height: 900px;
+    z-index: -9999;
+    background-color: #59746F
+}
+.contactText {
+    color: white;
+    font-size 50px;
+    font-family: Pacifico;
+    text-align: center;
+    margin-top: 260px;
+    font-size: 60px;
+}
+.contactButtons {
+    text-align: center;
+}
+.twitter {
+    color: white;
+    font-size: 50px;
+    margin-left: 40%;
+    padding-right: 10px;
+    transition-duration: 0.2s;
+}
+.twitter:hover {
+    color: darkcyan;
+}
+.instagram {
+    color: white;
+    font-size: 50px;
+    margin-left: 6%;
+    transition-duration: 0.2s;
+}
+.instagram:hover {
+    color: #125688
+}
+.github {
+    color: white;
+    font-size: 50px;
+    margin-left: 6%;
+    transition-duration: 0.2s;
+}
+.github:hover{
+    color: black;
+}
+
