@@ -1,0 +1,114 @@
+.titleName {
+    Color: white;
+    font-family: 'Amatic SC', cursive;
+    text-align: center;
+    font-size: 120px;
+    margin-top: 230px;
+    border: 4px solid #FFF;
+    width: 650px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    transition-duration: 0.2s;
+}
+.titleName:hover {
+    border-color: #ffffff;
+    color: #ffffff;
+    background-color: rgba(102, 102, 102, 0.4);
+    ;
+}
+.centerButtons {
+    text-align: center;
+}
+.instaButton {
+    color: #FFF;
+    font-family: "Open Sans Condensed", cursive;
+    font-size: 30px;
+    margin-top: 30px;
+    margin-right: 100px;
+    background-color: transparent;
+    border: 4px solid #FFF;
+    height: 55px;
+    width: 125px;
+    transition-duration: 0.4s;
+    border-radius: 6px;
+}
+.instaButton:hover {
+    background-color: #fff;
+    color: #000;
+}
+.galButton {
+    color: #FFF;
+    font-family: "Open Sans Condensed", cursive;
+    font-size: 30px;
+    margin-top: 40px;
+    margin-left: 100px;
+    background-color: transparent;
+    border: 4px solid #FFF;
+    height: 55px;
+    width: 125px;
+    transition-duration: 0.4s;
+    border-radius: 6px;
+}
+.galButton:hover {
+    background-color: #fff;
+    color: #000;
+}
+.socialbtns {
+    text-align: center;
+    font-size: 30px;
+    margin-top: 300px;
+    color: white;
+}
+.twitter {
+    transition-duration: 0.4s;
+    border-radius: 6px;
+    text-decoration: none;
+    color: GhostWhite;
+    margin-right: 5px;
+    background-color: transparent;
+}
+.twitter:hover {
+    background-color: transparent;
+    ;
+    color: #00aced;
+}
+.flickr {
+    transition-duration: 0.4s;
+    border-radius: 6px;
+    text-decoration: none;
+    margin-right: 5px;
+    color: GhostWhite;
+    background-color: transparent;
+}
+.flickr:hover {
+    background-color: transparent;
+    color: ##7B0099;
+}
+.Instagram {
+    transition-duration: 0.4s;
+    border-radius: 6px;
+    text-decoration: none;
+    color: GhostWhite;
+    margin-right: 5px;
+    background-color: transparent;
+}
+.Instagram:hover {
+    background-color: transparent;
+    color: #517fa4;
+}
+p {
+    color: #FFF;
+    font-family: "Open Sans Condensed", cursive;
+    margin-bottom: 15px;
+    font-size: 30px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 440px;
+    text-align: center;
+}
+hr {
+    border-top: 4px solid #ffffff;
+    width: 380px;
+}
