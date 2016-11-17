@@ -1,0 +1,142 @@
+body {
+    background-image: url(BG.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    height: 100vh;
+    width: 99%;
+    background-position: center top;
+} 
+.navBar {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100px;
+    /*background-color: #4991F7;*/
+    background-color: rgba(118, 122, 135, 0.2);
+    z-index: 999;
+}
+.navBarLogo {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 80px;
+    font-family: Pacifico;
+    font-size: 45px;
+    text-align: left;
+    vertical-align: center;
+    margin: 10px;
+    line-height: 80px;
+    color: #FFF;
+    cursor: pointer;
+    transition-duration: 0.4s;
+}
+.navBarLogo:hover {
+    color: grey;
+}
+.Name {
+    position: absolute;
+    top: 250px;
+    font-family: Lobster;
+    color: white;
+    font-size: 60px;
+    left: 150px
+}
+.info {
+    color: grey;
+    position: absolute;
+    top: 360px;
+    font-size: 25px;
+    font-family: Pacifico;
+    left: 180px
+}
+@media screen and (min-width: 600px) {
+    body {
+        background-position: right;
+    }
+}
+@media screen and (orientation: portrait) {
+    .info {
+        margin-right: 30px;
+        font-size: 65px;
+    }
+    .Name {
+        margin-right: 30px;
+        font-size: 100px;
+    }
+    body {
+        background-position: right;
+    }
+}
+.projectButton {
+    position: absolute;
+    transform: translateX(-50%) translateY(-50%);
+    top: 690px;
+    left: 51%;
+    padding: 20px;
+}
+#btn1 {
+    font-size: 40px;
+    width: 200px;
+    height: 200px;
+    margin-right: 500px;
+    background-color: rgba(88, 92, 92, 0.6);
+    border: none;
+    color: white;
+    transition-duration: 0.4s;
+    font-family: Pacifico;
+    text-decoration-color: 
+}
+#btn1:hover {
+    background-color: rgba(255, 255, 255, 0.9);
+    color: black;
+}
+.aboutButton {
+    position: absolute;
+    transform: translateX(-50%) translateY(-50%);
+    top: 690px;
+    left: 65%;
+    padding: 20px;
+}
+#btn2 {
+    font-size: 40px;
+    width: 200px;
+    height: 200px;
+    margin-right: 500px;
+    background-color: rgba(88, 92, 92, 0.6);
+    border: none;
+    color: white;
+    transition-duration: 0.4s;
+    font-family: Pacifico;
+    text-decoration-color:
+}
+#btn2:hover {
+    background-color: rgba(255, 255, 255, 0.9);
+    color: black;
+}
+.contactButton {
+    position: absolute;
+    transform: translateX(-50%) translateY(-50%);
+    top: 690px;
+    left: 79%;
+    padding: 20px;
+}
+
+#btn3 {
+    font-size: 40px;
+    width: 200px;
+    height: 200px;
+    margin-right: 500px;
+    background-color: rgba(88, 92, 92, 0.6);
+    border: none;
+    color: white;
+    transition-duration: 0.4s;
+    font-family: Pacifico;
+    text-decoration-color:
+}
+#btn3:hover {
+    background-color: rgba(255, 255, 255, 0.9);
+    color: black;
+}
+
